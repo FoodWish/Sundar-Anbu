@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Full Stack Developer with 3+ years of experience in building web applications. I specialize in JavaScript, React, Node.js, and MongoDB.
+            Full Stack Developer with 3+ years of experience in building web applications. I specialize in JavaScript, React,Next.js, Node.js, and MongoDB.
           </p>
           <div>
             <Link
