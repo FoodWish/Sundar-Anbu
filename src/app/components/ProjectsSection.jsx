@@ -56,6 +56,14 @@ const projectsData = [
   },
   {
     id: 7,
+    title: "Equios Rider App",
+    description: "Connecting the Equestrian World, One Ride at a Time",
+    image: "/images/projects/equios-rider.png",
+    tag: ["All", "Mobile"],
+    previewUrl: "https://rider.equios.co/login"
+  },
+  {
+    id: 9,
     title: "ZipZap Restaurant Partner",
     description: "Restaurant management app for order processing, menu management, and business analytics.",
     image: "/images/projects/zipzap-restaurant.png",

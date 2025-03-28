@@ -1,10 +1,12 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
-import instagramIcon from "../../../public/instagram.svg";
 import Link from "next/link";
-import Image from "next/image";
+import EmailIcon from '@mui/icons-material/Email';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -62,13 +64,22 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/SundarAnbu18">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <GitHubIcon style={{ color: 'white', fontSize: '2rem' }} />
           </Link>
           <Link href="https://www.linkedin.com/in/sundar-anbu-a94614202/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <LinkedInIcon style={{ color: 'white', fontSize: '2rem' }} />
           </Link>
           <Link href="https://www.instagram.com/sundaranbu_/">
-            <Image src={instagramIcon} alt="Linkedin Icon" />
+            <InstagramIcon style={{ color: 'white', fontSize: '2rem' }} />
+          </Link>
+          <Link href="mailto:sundaranbu007@gmail.com">
+            <EmailIcon style={{ color: 'white', fontSize: '2rem' }} />
+          </Link>
+          <Link href="https://wa.me/916383522927">
+            <WhatsAppIcon style={{ color: 'white', fontSize: '2rem' }} />
+          </Link>
+          <Link href="https://x.com/sundaranbu_">
+            <TwitterIcon style={{ color: 'white', fontSize: '2rem' }} />
           </Link>
         </div>
       </div>

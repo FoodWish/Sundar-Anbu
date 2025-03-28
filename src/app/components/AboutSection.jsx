@@ -8,18 +8,39 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2 grid grid-cols-2 gap-2">
-        <li>React/Next.js</li>
-        <li>Node.js/Express</li>
-        <li>JavaScript/TypeScript</li>
-        <li>PostgreSQL/MongoDB</li>
-        <li>AWS/Azure Cloud</li>
-        <li>Docker/Kubernetes</li>
-        <li>REST/GraphQL APIs</li>
-        <li>CI/CD Pipelines</li>
-        <li>Salesforce Development</li>
-        <li>Agile Methodologies</li>
-      </ul>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Frontend</h3>
+          <ul className="list-disc pl-4">
+            <li>React/Next.js</li>
+            <li>Angular</li>
+            <li>JavaScript/TypeScript</li>
+            <li>HTML/CSS</li>
+            <li>TailwindCSS</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-semibold text-lg mb-2">Backend</h3>
+          <ul className="list-disc pl-4">
+            <li>Node.js/Express</li>
+            <li>REST/GraphQL APIs</li>
+            <li>PostgreSQL/MongoDB</li>
+            <li>Salesforce Development</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-semibold text-lg mb-2">DevOps & Cloud</h3>
+          <ul className="list-disc pl-4">
+            <li>AWS</li>
+            <li>Google Cloud Platform (GCP)</li>
+            <li>Microsoft Azure</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>CI/CD Pipelines</li>
+            <li>Cloud Run</li>
+          </ul>
+        </div>
+      </div>
     ),
   },
   {
